@@ -1,0 +1,4 @@
+#Sat Apr 06 00:22:26 EDT 2019
+base.0=C\:\\Google Drive\\Programming\\Android Studio Projects\\Home\\GroupMessenger2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
