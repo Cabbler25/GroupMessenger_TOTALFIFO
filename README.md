@@ -1,6 +1,19 @@
 # GroupMessenger_TOTALFIFO
 Group messenger built in Android that guarantees both TOTAL and FIFO ordering.
 
+**Total Ordering:**
+
+Guarantees every process delivers all messages in the same order. So long as every process follows the same order, causal or temporal relationships between messages do not matter.
+
+**FIFO Ordering:**
+
+Each process delivers messages in the order in which they are received. Note that processes may deliver messsages in a different ordering relative to one another.
+
+**TOTAL-FIFO Ordering:**
+
+All processes preserve the message sending order of one another and every process delivers all messages in the same order.
+
+This app implements a modified ISIS algorithm that guarantees both TOTAL and FIFO ordering, even under process failure. See [here](https://github.com/Cabbler25/GroupMessenger_TOTALFIFO/blob/master/README.pdf) for in-depth project specifications. Credits to Steve Ko, Professor at the University at Buffalo, for contents of the PDF and testing scripts.
 
 
 **For testing/running the grader (Windows machine required)**
