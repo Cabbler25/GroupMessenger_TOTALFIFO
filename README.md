@@ -8,11 +8,11 @@ Group messenger built in Android that guarantees both TOTAL and FIFO ordering.
 
 >Download the tools found [here.](https://github.com/Cabbler25/GroupMessenger_TOTALFIFO/tree/master/Testing_Tools)
 
->Use the command python create_avd.py 5 to create testing AVD's.
+>Use the command *python create_avd.py 5* to create testing AVD's.
 
->Use the command python run_avd.py 5 to run the AVD's.
+>Use the command *python run_avd.py 5* to run the AVD's.
 
->Use the command python set_redir.py 10000 to set up their networking.
+>Use the command *python set_redir.py 10000* to set up their networking.
 
 >Ensure the app is installed on all 5 AVD's before running the grader.
 
